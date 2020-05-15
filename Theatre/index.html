@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="description" content="Theatre">
+    <title>Theatre</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Name and Address</legend>
+            <label for="">Name: </label>
+            <input type="text" name="" id="" required>
+            <label for="">Address</label>
+            <input type="text" required>
+        </fieldset>
+        <fieldset>
+            <legend>Theatre</legend>
+            <p>
+                <span id="price"></span>
+            </p>
+            <fieldset>
+                <legend>What would you like to go see?</legend>
+                <p>
+                    <input type="radio" id="Phantom of the opera" name="show" value="Phantom of the opera" checked required>
+                    <label for="Phantom of the opera">Phantom of the opera</label>
+                </p>
+                <p>
+                    <input type="radio" id="Hamilton" name="show" value="Hamilton">
+                    <label for="Hamilton">Hamilton</label>
+                </p>
+                <p>
+                    <input type="radio" id="Lion King" name="show" value="Lion King">
+                    <label for="Lion King">Lion King</label>
+                </p>
+                <p>
+                    <input type="radio" id="Miss Saigon" name="show" value="Miss Saigon">
+                    <label for="Miss Saigon">Miss Saigon</label>
+                </p>
+                <span id="sprice"></span>
+            </fieldset>
+            <fieldset>
+                <legend>How many tickets do you want?</legend>
+                <label for="number">Amount of tickets</label>
+                <input type="number" min="0" id="amount" name="amount" required>
+                
+            </fieldset>
+            <fieldset>
+                <legend>How do you want to recieve tickets?</legend>
+                <p>
+                    <input type="radio" id="E-ticket" name="ticket" value="E-ticket" checked required> 
+                    <label for="E-ticket">E-ticket</label>
+                </p>
+                <p>
+                    <input type="radio" id="Collect from box office" name="ticket" value="Collect from box office">
+                    <label for="Collect from box office">Collect from box office</label>
+                </p>
+                <p>
+                    <input type="radio" id="posted" name="ticket" value="Posted">
+                    <label for="posted">Posted</label>
+                </p>
+                <span id="dprice"></span>
+            </fieldset>
+
+        </fieldset>
+        <p>
+            <button type="input" name="order" id="order">Order</button>
+        </p>
+    </form>
+    <script src="scripts/proc.js"></script>
+</body>
+
+</html>
