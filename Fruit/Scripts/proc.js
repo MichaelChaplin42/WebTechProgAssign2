@@ -25,7 +25,7 @@ winningso.innerText = winnings;
 for (i = 0; i<3;i++) {
     sr[i] = Math.floor(Math.random() * Math.floor(8))+1;
 }
-s1.src = `Fruit/Images/${sr[0]}.png`;Fruit/Images/1.png
+s1.src = `Fruit/Images/${sr[0]}.png`;
 s2.src = `Fruit/Images/${sr[1]}.png`;
 s3.src = `Fruit/Images/${sr[2]}.png`;
 
