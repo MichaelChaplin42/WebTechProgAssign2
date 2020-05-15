@@ -25,9 +25,9 @@ winningso.innerText = winnings;
 for (i = 0; i<3;i++) {
     sr[i] = Math.floor(Math.random() * Math.floor(8))+1;
 }
-s1.src = `images/${sr[0]}.png`;
-s2.src = `images/${sr[1]}.png`;
-s3.src = `images/${sr[2]}.png`;
+s1.src = `Images/${sr[0]}.png`;
+s2.src = `Images/${sr[1]}.png`;
+s3.src = `Images/${sr[2]}.png`;
 
 
 function spinf() {
